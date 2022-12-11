@@ -5,6 +5,9 @@
   "description": "A simple configuration file for Eslint patterns",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.46.0",
     "@typescript-eslint/parser": "^5.46.0",
