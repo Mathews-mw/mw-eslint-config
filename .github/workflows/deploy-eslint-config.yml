@@ -28,6 +28,5 @@ jobs:
 
       - name: Deploy eslint-config
         working-directory: ./packages/eslint-config
-        run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
