@@ -33,8 +33,8 @@ module.exports = {
       'jsxSingleQuote': true,
       'trailingComma': 'es5',
       'bracketSpacing': true,
-      'bracketLine': true,
-      'arrowFunctionParens': 'always'
+      'arrowFunctionParens': 'always',
+      'bracketLine': true
     }],
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
