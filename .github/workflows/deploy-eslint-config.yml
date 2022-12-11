@@ -28,6 +28,5 @@ jobs:
 
       - name: Deploy eslint-config
         working-directory: ./packages/eslint-config
-        run: npm run test
         env:
           GH_TOKEN: ${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}
